@@ -107,7 +107,7 @@ begin
         begin
 
             cpi <=
-            (total_cycles + stall_cycles)
+            (total_cycles )
             / access_count;
 
         end
